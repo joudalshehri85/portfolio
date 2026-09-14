@@ -1082,9 +1082,9 @@ export default function App() {
           ◇ {t.contact.github}
         </a>
 
-        <a
-          href="/cv.pdf"
-          download="Joud_Alshehri_CV.pdf"
+       <a
+          href={lang === 'ar' ? '/جود_الشهري_CV.pdf' : '/Joud_Alshehri_CV.pdf'}
+          download={lang === 'ar' ? 'Joud_Alshehri_CV_AR.pdf' : 'Joud_Alshehri_CV_EN.pdf'}
           className="contact-pill contact-cv"
         >
           ↓ {t.contact.cv}
