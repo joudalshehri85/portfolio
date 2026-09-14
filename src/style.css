@@ -510,124 +510,95 @@ button {
 
   font-size: 0.9rem;
 }
-
 /* =========================================
    ABOUT
 ========================================= */
 
 .about-grid {
   display: grid;
-
   grid-template-columns: 1.2fr 0.8fr;
-
-  gap: 1rem;
+  gap: 1.5rem;
+  align-items: stretch;
 }
 
 .about-card,
 .education-card {
   position: relative;
-
   background: var(--card-bg);
-
   border: 1px solid var(--border-subtle);
-
   border-radius: 16px;
-
   padding: 2rem;
-
   overflow: hidden;
-
   transition: 0.25s ease;
+
+  /* ترتيب العناصر داخلياً من الأعلى للأسفل */
+  display: flex;
+  flex-direction: column;
 }
 
 .about-card:hover,
 .education-card:hover {
   border-color: var(--border-hover);
-
   transform: translateY(-3px);
 }
 
 .card-number {
-  position: absolute;
-
-  top: 1.4rem;
-
-  inset-inline-end: 1.5rem;
-
-  color: rgba(232, 180, 206, 0.16);
-
+  position: static;
+  color: rgba(232, 180, 206, 0.2);
   font-size: 2rem;
-
   font-weight: 700;
+  line-height: 1;
+  margin-bottom: 1.2rem;
+  /* ليبقى الرقم دائماً في جهة بداية السطر (يمين بالعربي، يسار بالإنجليزي) */
+  align-self: flex-start;
 }
 
 .about-text {
   color: var(--text-secondary);
-
   font-size: 0.95rem;
-
   line-height: 2;
-
-  max-width: 700px;
+  width: 100%;
 }
 
 .card-badge {
   display: inline-block;
-
   background: rgba(232, 180, 206, 0.08);
-
   color: var(--accent-pink);
-
   padding: 0.25rem 0.65rem;
-
   border: 1px solid rgba(232, 180, 206, 0.12);
-
   border-radius: 6px;
-
   font-size: 0.7rem;
-
   font-weight: 600;
-
   margin-bottom: 1rem;
+  align-self: flex-end; /* تذهب للزاوية المقابلة بشكل أنيق */
 }
 
 .card-title {
   font-size: 1.15rem;
-
   font-weight: 700;
-
   color: var(--text-primary);
-
   margin-bottom: 0.4rem;
 }
 
 .card-subtitle {
   color: var(--accent-pink);
-
   font-size: 0.82rem;
-
   margin-bottom: 1.2rem;
 }
 
 .education-meta {
   display: flex;
-
   justify-content: space-between;
-
   align-items: center;
-
   color: var(--text-secondary);
-
   font-size: 0.75rem;
-
   border-top: 1px solid var(--border-subtle);
-
   padding-top: 1rem;
+  margin-top: auto; /* يدفع شريط التاريخ والمعدل لأسفل الكرت دائماً */
 }
 
 .gpa-pill {
   color: var(--accent-blush);
-
   font-weight: 600;
 }
 

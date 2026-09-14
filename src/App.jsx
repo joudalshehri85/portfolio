@@ -1,6 +1,6 @@
 import { content } from './content';
 import logo from './assets/logo1.jpeg';
-import dentekPreview from './assets/Dentek (2).png';
+import dentekPreview from './assets/dentek.png';
 import { useEffect, useState } from 'react';
 
 export default function App() {
@@ -765,9 +765,13 @@ export default function App() {
       {t.certificates.items.map(
         (cert, idx) => (
 
-          <div
+          <a
             key={idx}
+            href={cert.link || '#'}
+            target={cert.link ? "_blank" : "_self"}
+            rel="noopener noreferrer"
             className="certificate-card"
+            style={{ textDecoration: 'none', color: 'inherit' }}
           >
 
             <div className="cert-icon">
@@ -790,7 +794,7 @@ export default function App() {
               ↗
             </span>
 
-          </div>
+          </a>
 
         )
       )}

@@ -16,14 +16,14 @@ export const content = {
       role: 'مطورة برمجيات وذكاء اصطناعي',
       greeting: 'أهلاً، أنا',
       name: 'جود',
-      bio: 'خريجة تقنية معلومات شغوفة بالذكاء الاصطناعي وتطوير تطبيقات الويب المتكاملة، وأسعى إلى بناء أنظمة عملية تجمع بين الذكاء وسهولة الاستخدام.',
+      bio: 'خريجة تقنية معلومات شغوفة بالذكاء الاصطناعي وتطوير تطبيقات الويب، وأسعى إلى بناء أنظمة عملية تجمع بين الذكاء وسهولة الاستخدام.',
       viewProjects: 'تصفح المشاريع',
       contactMe: 'تواصل معي'
     },
 
     about: {
       title: 'نبذة عني',
-      text: 'أنا جود الشهري، خريجة تقنية معلومات من جامعة الملك عبدالعزيز مع مرتبة الشرف الأولى. أهتم بتطوير تطبيقات الويب والذكاء الاصطناعي، وأستمتع بتحويل الأفكار إلى أنظمة عملية وسهلة الاستخدام. لدي خبرة في تطوير تطبيقات Full-Stack وربط الواجهات الأمامية بالخدمات الخلفية وواجهات الذكاء الاصطناعي.'
+      text: 'خريجة من جامعة الملك عبدالعزيز بتخصص تقنية المعلومات، حاصلة على مرتبة الشرف الأولى. مهتمة بتطوير تطبيقات الويب والذكاء الاصطناعي، ولدي خبرة في العمل على عدة مشاريع تقنية، من أبرزها مشروع التخرج Dentek، وهي منصة ويب تساعد أطباء الأسنان في تحليل صور الأشعة السينية باستخدام نماذج الذكاء الاصطناعي. كما اكتسبت خلال التدريب في شركة سلم تك خبرة في تطوير تطبيقات الويب وبناء روبوتات المحادثة.'
     },
 
     skills: {
@@ -34,10 +34,8 @@ export const content = {
           title: 'الذكاء الاصطناعي والرؤية الحاسوبية',
           items: [
             'YOLOv8 OBB',
-            'ResNet18',
             'Deep Learning',
-            'Image Processing',
-           
+            'Image Processing'
           ]
         },
 
@@ -45,7 +43,6 @@ export const content = {
           title: 'تطوير الويب المتكامل',
           items: [
             'React',
-            'Django REST Framework',
             'API Integration',
             'HTML',
             'CSS',
@@ -65,7 +62,8 @@ export const content = {
           title: 'لغات البرمجة',
           items: [
             'Python',
-            'JavaScript'
+            'JavaScript',
+            'PHP'
           ]
         },
 
@@ -92,107 +90,114 @@ export const content = {
 
     projects: {
       featuredLabel: 'مشروع مميز',
-     otherProjects: 'مشاريع أخرى',
+      otherProjects: 'مشاريع أخرى',
 
       title: 'المشاريع',
       subtitle: 'مشاريع تجمع بين الذكاء الاصطناعي وتطوير الأنظمة العملية.',
 
-     dentek: {
-  title: 'Dentek',
-  subtitle: 'نظام ذكي لتحليل صور الأشعة السنية',
-  type: 'مشروع التخرج',
-  date: '2025 – 2026',
+      dentek: {
+        title: 'Dentek',
+        subtitle: 'منصة تحليل صور الأشعة السنية بالذكاء الاصطناعي',
+        type: 'مشروع التخرج',
+        date: '2025 – 2026',
 
-  description:
-    'منصة ويب تعتمد على الذكاء الاصطناعي لتحليل صور الأشعة السنية واستخراج النتائج والتوصيات لمساعدة أطباء الأسنان في عملية التشخيص.',
+        description:
+          'منصة ويب تعتمد على الذكاء الاصطناعي لتحليل صور الأشعة السنية وعرض النتائج والتوصيات لمساعدة أطباء الأسنان في عملية التشخيص.',
 
-  highlights: [
-    'تطوير نماذج YOLOv8 OBB وResNet18 لمهام الكشف والتصنيف.',
-    'دمج Groq AI لتوليد توصيات آلية بناءً على نتائج التحليل.',
-    'تطوير تطبيق Full-Stack باستخدام Django REST Framework وReact.'
-  ],
+        highlights: [
+          'تطوير نموذج YOLOv8 OBB لتحليل صور الأشعة والكشف عن الحالات المرضية.',
+          'ربط نموذج الذكاء الاصطناعي بواجهات النظام لعرض نتائج التحليل للطبيب.',
+          'دمج Groq AI لتوليد توصيات للطبيب بناءً على نتائج التحليل.',
+          'تصميم وتطوير واجهات المنصة باستخدام React.',
+          'تطوير واجهة التقرير لعرض النتائج والتوصيات مع إمكانية تنزيل التقرير بصيغة PDF وإضافة ملاحظات الطبيب.'
+        ],
 
-  technologies: [
-    'YOLOv8 OBB',
-    'ResNet18',
-    'Django REST Framework',
-    'React',
-    'Groq AI',
-    'Python'
-  ],
+        technologies: [
+          'YOLOv8 OBB',
+          'React',
+          'Groq AI',
+          'Python'
+        ],
 
-  caseStudyButton: 'استكشاف المشروع',
+        caseStudyButton: 'استكشاف المشروع',
 
-  caseStudy: {
-    problemTitle: 'المشكلة',
-    problem:
-      'تحتاج عملية مراجعة صور الأشعة السنية إلى وقت وخبرة، وقد يكون من المفيد توفير نظام يساعد طبيب الأسنان في تحليل الصور ومراجعة النتائج بشكل أسرع.',
+        caseStudy: {
+          problemTitle: 'المشكلة',
+          problem:
+            'تحتاج مراجعة صور الأشعة السنية إلى وقت وخبرة، وقد يساعد توفير نظام ذكي في تسريع تحليل الصور ومراجعة النتائج.',
 
-    solutionTitle: 'الحل',
-    solution:
-      'تم تطوير منصة ويب تجمع بين تحليل صور الأشعة باستخدام نماذج الذكاء الاصطناعي وواجهة تفاعلية تتيح للطبيب رفع الصور ومراجعة نتائج التحليل والتقارير.',
+          solutionTitle: 'الحل',
+          solution:
+            'تم تطوير منصة ويب تجمع بين تحليل صور الأشعة باستخدام الذكاء الاصطناعي وواجهة تفاعلية تتيح للطبيب رفع الصور ومراجعة نتائج التحليل والتوصيات والتقرير.',
 
-    roleTitle: 'دوري في المشروع',
-    role:
-      'شاركت في تطوير النظام وربط الواجهة الأمامية بالواجهة الخلفية، وإدارة بيانات المرضى، وعرض نتائج تحليل الأشعة داخل المنصة.',
+          roleTitle: 'دوري في المشروع',
+          role:
+            'ساهمت في تطوير نموذج الذكاء الاصطناعي باستخدام YOLOv8 OBB، وربطه بواجهات النظام، وتصميم وتطوير واجهات المنصة، ودمج Groq AI لتوليد التوصيات، بالإضافة إلى تطوير واجهة التقرير وإتاحة تنزيله بصيغة PDF وإضافة ملاحظات الطبيب.',
 
-    workflowTitle: 'كيف يعمل النظام؟',
+          workflowTitle: 'كيف يعمل النظام؟',
 
-    workflow: [
-      'رفع صورة الأشعة',
-      'معالجة وتحليل الصورة',
-      'استخراج نتائج التحليل',
-      'عرض النتائج للطبيب',
-      'إنشاء التقرير'
-    ],
+          workflow: [
+            'رفع صورة الأشعة',
+            'معالجة وتحليل الصورة',
+            'استخراج نتائج التحليل',
+            'عرض النتائج والتوصيات للطبيب',
+            'إنشاء التقرير وتنزيله بصيغة PDF'
+          ],
 
-    techTitle: 'التقنيات المستخدمة'
-  }
-},
+          techTitle: 'التقنيات المستخدمة'
+        }
+      },
+
       agricultural: {
-        title: 'منصة الاستثمار الزراعي',
+        title: 'المنصة الزراعية',
         subtitle: 'منصة لربط المزارعين بالجهات التمويلية والمشترين والموردين',
         type: 'مشروع التدريب',
         date: '2025',
-        description: 'منصة ويب تهدف إلى تسهيل التواصل بين المزارعين والجهات التمويلية والمشترين والموردين، مع توفير أدوات لإدارة طلبات التمويل والخطط الزراعية.',
+
+        description:
+          'منصة ويب تهدف إلى تسهيل التواصل بين المزارعين والجهات التمويلية والمشترين والموردين، مع توفير خدمات رقمية للمستخدمين.',
+
         highlights: [
-          'تطوير واجهات الويب باستخدام React.',
-          'بناء chatbot باستخدام Botpress.',
-          'إدارة قواعد البيانات والخدمات الخلفية باستخدام Supabase.',
-          'ربط الواجهات الأمامية مع APIs وخدمات الذكاء الاصطناعي.'
+          'تصميم وتطوير جزء من واجهات المنصة باستخدام React.',
+          'تصميم وتطوير روبوت محادثة باستخدام Botpress لدعم خدمة العملاء والإجابة عن الأسئلة المتكررة.',
+          'ربط روبوت المحادثة بقاعدة البيانات باستخدام Supabase لاسترجاع المعلومات المطلوبة.',
+          'ربط روبوت المحادثة بواجهات المنصة لتمكين المستخدمين من الوصول إلى خدمة المحادثة.'
         ],
+
         technologies: [
           'React',
           'Botpress',
-          'Supabase',
-          'APIs'
+          'Supabase'
         ],
+
         button: 'عرض المشروع',
-        link:'https://github.com/joudalshehri85/Dentek'
+        link: 'https://github.com/joudalshehri85/Dentek'
       },
 
       mustarad: {
-        title: ' منصة مسترد',
-        subtitle: 'منصة ويب جامعية للإبلاغ عن المفقودات واستعادتها داخل الحرم الجامعي',
+        title: 'مسترد',
+        subtitle: 'منصة ويب جامعية للإبلاغ عن المفقودات والموجودات',
         type: 'مشروع ويب جامعي',
         date: '2024',
-        description: 'غياب منصة موحدة أو مكان محدد في الجامعة للإبلاغ عن المفقودات واستعادتها، مما يؤدي إلى تشتت الطلاب وضياع مقتنياتهم',
+
+        description:
+          'منصة ويب جامعية تهدف إلى تسهيل الإبلاغ عن المفقودات والموجودات ومساعدة الطلاب في الوصول إلى البلاغات.',
+
         highlights: [
-          'تطوير واجهات تسجيل الدخول والصفحة الرئيسية وبناء تجربة مستخدم متناسقة.',
-          'بناء نظام متكامل للإبلاغ عن المفقودات يتضمن رفع الصور وتحديد المواقع.',
-          'توفير تصفية ذكية للمفقودات (أجهزة، ملابس، أخرى) ومحرك بحث بالكلمات المفتاحية.',
-          'العمل ضمن فريق طلابي متكامل وتوزيع المهام وفق أحدث ممارسات الويب.'
+          'تصميم وتطوير واجهتي تسجيل الدخول والصفحة الرئيسية للمنصة.',
+          'تطوير وظائف باستخدام PHP للتحقق من صحة المدخلات ومعالجة بيانات المستخدمين.',
+          'المساهمة في تطوير منصة للإبلاغ عن المفقودات والموجودات.'
         ],
+
         technologies: [
-          'React.js',
+          'PHP',
           'JavaScript',
-          'Node.js',
-          'Express',
-          'Multer',
-          'HTML & CSS'
+          'HTML',
+          'CSS'
         ],
+
         button: 'عرض المشروع',
-        link: 'https://github.com/joudalshehri85/Mustarad' // ضعي رابط مستودع المشروع إن وجد
+        link: 'https://github.com/joudalshehri85/Mustarad'
       }
     },
 
@@ -204,12 +209,15 @@ export const content = {
         company: 'SallamTech',
         location: 'جدة',
         date: '05/2025 – 07/2025',
-        description: 'تجربة تدريبية عملية ركزت على تطوير تطبيقات الويب المتكاملة ودمج حلول الذكاء الاصطناعي والخدمات السحابية.',
+
+        description:
+          'تجربة تدريبية عملية ركزت على تطوير واجهات الويب، وبناء روبوتات المحادثة، وربطها بقواعد البيانات وواجهات المنصة.',
+
         responsibilities: [
-          'تطوير تطبيقات ويب متجاوبة باستخدام React.',
-          'بناء حلول chatbot باستخدام Botpress.',
-          'إدارة قواعد البيانات والخدمات الخلفية باستخدام Supabase.',
-          'ربط الواجهات الأمامية مع APIs وخدمات الذكاء الاصطناعي.'
+          'تصميم وتطوير جزء من واجهات المنصة الزراعية باستخدام React.',
+          'تصميم وتطوير روبوت محادثة باستخدام Botpress لدعم خدمة العملاء والإجابة عن الأسئلة المتكررة.',
+          'ربط روبوت المحادثة بقاعدة البيانات باستخدام Supabase لاسترجاع المعلومات المطلوبة وتقديم إجابات للمستخدمين.',
+          'ربط روبوت المحادثة بواجهات المنصة لتمكين المستخدمين من الوصول إلى خدمة المحادثة مباشرة.'
         ]
       }
     },
@@ -231,23 +239,28 @@ export const content = {
       items: [
         {
           title: 'أساسيات جافاسكربت 1 (JavaScript Essentials 1)',
-          issuer: 'أكاديمية سيسكو للشبكات (Cisco)'
+          issuer: 'أكاديمية سيسكو للشبكات (Cisco)',
+          link:'https://www.credly.com/badges/e9bd872a-a985-4ba9-8799-320bc0fc254b/public_url'
         },
         {
           title: 'أساسيات جافاسكربت 2 (JavaScript Essentials 2)',
-          issuer: 'أكاديمية سيسكو للشبكات (Cisco)'
+          issuer: 'أكاديمية سيسكو للشبكات (Cisco)',
+           link:'https://www.credly.com/badges/e184df81-420d-47c6-9680-6d591a975840/public_url'
         },
         {
-          title: 'مقدمة في النماذج اللغوية الكبيرة (LLMs)',
-          issuer: 'آي بي إم (IBM SkillsBuild)'
+          title: 'مقدمة إلى النماذج اللغوية الكبيرة (LLMs)',
+          issuer: 'IBM SkillsBuild',
+          link:'https://drive.google.com/file/d/1XnLmniPYU5wMVYlWX9cWlIyn1s50yl3W/view?pli=1'
         },
         {
           title: 'استخدام الذكاء الاصطناعي التوليدي في تطوير البرمجيات',
-          issuer: 'آي بي إم (IBM SkillsBuild)'
+          issuer: 'IBM SkillsBuild',
+           link:'https://drive.google.com/file/d/1bN78JCB1XFcnZEuPeKjf8V1rCHLPNllR/view'
         },
         {
-          title: 'بناء أول روبوت محادثة ذكي (Chatbot)',
-          issuer: 'آي بي إم (IBM SkillsBuild)'
+          title: 'بناء أول روبوت محادثة باستخدام الذكاء الاصطناعي',
+          issuer: 'IBM SkillsBuild',
+           link:'https://drive.google.com/file/d/16qAPheIKswrxcgetgzwInh-1RGJMrYrO/view'
         }
       ],
 
@@ -258,8 +271,8 @@ export const content = {
       title: 'تواصل معي',
       subtitle: 'هل لديك فرصة أو مشروع؟ يسعدني التواصل معك.',
       email: 'البريد الإلكتروني',
-      linkedin:'لينكد ان',
-      github: 'قيت هب',
+      linkedin: 'لينكد إن',
+      github: 'جيت هب',
       cv: 'تحميل السيرة الذاتية'
     },
 
@@ -269,31 +282,31 @@ export const content = {
     }
   },
 
-  en: {
+ en: {
     dir: 'ltr',
     langBtn: 'العربية',
 
     nav: {
-      about: 'About',
+      about: 'About Me',
       projects: 'Projects',
       skills: 'Skills',
       experience: 'Experience',
       certificates: 'Certificates',
-      contact: 'Contact'
+      contact: 'Contact Me'
     },
 
     hero: {
-      role: 'Full-Stack & AI Developer',
+      role: 'Software and AI Developer',
       greeting: "Hello, I'm",
       name: 'Joud',
-      bio: 'An Information Technology graduate passionate about Artificial Intelligence and Full-Stack Web Development, building practical systems that combine intelligent solutions with intuitive user experiences.',
-      viewProjects: 'View Projects',
+      bio: 'An Information Technology graduate passionate about artificial intelligence and web application development, seeking to build practical systems that combine intelligence and ease of use.',
+      viewProjects: 'Browse Projects',
       contactMe: 'Contact Me'
     },
 
     about: {
       title: 'About Me',
-      text: "I'm Joud Alshehri, an Information Technology graduate from King Abdulaziz University with First Class Honors. I'm interested in Artificial Intelligence and Full-Stack Web Development, and I enjoy turning ideas into practical and user-friendly systems. I have experience building full-stack applications and integrating frontend interfaces with backend services and AI solutions."
+      text: 'Information Technology graduate with First-Class Honors from King Abdulaziz University, passionate about web development and artificial intelligence. I have hands-on experience working on various technical projects, most notably my graduation project, Dentek—a web platform that assists dentists in analyzing X-ray images using AI models. Additionally, during my internship at Salamtech, I gained practical experience in developing web applications and building chatbots.'
     },
 
     skills: {
@@ -301,21 +314,18 @@ export const content = {
 
       categories: {
         ai: {
-          title: 'AI & Computer Vision',
+          title: 'Artificial Intelligence and Computer Vision',
           items: [
             'YOLOv8 OBB',
-            'ResNet18',
             'Deep Learning',
-            'Image Processing',
-           
+            'Image Processing'
           ]
         },
 
         fullStack: {
-          title: 'Full-Stack Development',
+          title: 'Full-Stack Web Development',
           items: [
             'React',
-            'Django REST Framework',
             'API Integration',
             'HTML',
             'CSS',
@@ -324,7 +334,7 @@ export const content = {
         },
 
         databases: {
-          title: 'Databases & Cloud',
+          title: 'Databases and Cloud Services',
           items: [
             'Supabase',
             'PostgreSQL'
@@ -332,10 +342,11 @@ export const content = {
         },
 
         programming: {
-          title: 'Programming',
+          title: 'Programming Languages',
           items: [
             'Python',
-            'JavaScript'
+            'JavaScript',
+            'PHP'
           ]
         },
 
@@ -348,7 +359,7 @@ export const content = {
         },
 
         professional: {
-          title: 'Professional Skills',
+          title: 'Soft Skills',
           items: [
             'Problem Solving',
             'Teamwork',
@@ -363,105 +374,113 @@ export const content = {
     projects: {
       featuredLabel: 'Featured Project',
       otherProjects: 'Other Projects',
+
       title: 'Projects',
-      subtitle: 'Projects combining Artificial Intelligence with practical web development.',
+      subtitle: 'Projects combining artificial intelligence and practical systems development.',
 
       dentek: {
-  title: 'Dentek',
-  subtitle: 'AI-Powered Dental X-Ray Analysis System',
-  type: 'Graduation Project',
-  date: '2025 – 2026',
+        title: 'Dentek',
+        subtitle: 'AI-Powered Dental X-Ray Image Analysis Platform',
+        type: 'Graduation Project',
+        date: '2025 – 2026',
 
-  description:
-    'A web-based platform that uses Artificial Intelligence to analyze dental X-ray images and generate findings and recommendations to support dentists in the diagnostic process.',
+        description:
+          'A web platform powered by artificial intelligence to analyze dental X-ray images and present results and recommendations to assist dentists in the diagnosis process.',
 
-  highlights: [
-    'Developed YOLOv8 OBB and ResNet18 models for detection and classification tasks.',
-    'Integrated Groq AI to generate automated recommendations based on analysis results.',
-    'Built the full-stack web application using Django REST Framework and React.'
-  ],
-
-  technologies: [
-    'YOLOv8 OBB',
-    'ResNet18',
-    'Django REST Framework',
-    'React',
-    'Groq AI',
-    'Python'
-  ],
-
-  caseStudyButton: 'Explore Case Study',
-
-  caseStudy: {
-    problemTitle: 'The Problem',
-    problem:
-      'Reviewing dental X-ray images can require significant time and clinical expertise. An intelligent system can help dentists review image analysis and findings more efficiently.',
-
-    solutionTitle: 'The Solution',
-    solution:
-      'Dentek combines AI-based dental X-ray analysis with an interactive web platform where dentists can upload X-rays, review analysis results, and access generated reports.',
-
-    roleTitle: 'My Contribution',
-    role:
-      'Contributed to system development, frontend-backend integration, patient data management, and displaying X-ray analysis results within the platform.',
-
-    workflowTitle: 'How It Works',
-
-    workflow: [
-      'Upload X-ray',
-      'Process and analyze image',
-      'Extract analysis results',
-      'Display findings',
-      'Generate report'
-    ],
-
-    techTitle: 'Technologies'
-  }
-},
-      agricultural: {
-        title: 'Agricultural Investment Platform',
-        subtitle: 'A platform connecting farmers with financiers, buyers, and suppliers',
-        type: 'Training Project',
-        date: '2025',
-        description: 'A web platform designed to connect farmers with financiers, buyers, and suppliers while providing tools for managing funding requests and agricultural plans.',
         highlights: [
-          'Developed responsive web interfaces using React.',
-          'Built an AI chatbot using Botpress.',
-          'Managed databases and backend services using Supabase.',
-          'Integrated frontend interfaces with APIs and AI services.'
+          'Developing a YOLOv8 OBB model to analyze X-ray images and detect pathological conditions.',
+          'Integrating the AI model with system interfaces to display analysis results to the doctor.',
+          'Integrating Groq AI to generate recommendations for the doctor based on analysis results.',
+          'Designing and developing platform interfaces using React.',
+          'Developing the report interface to display findings and recommendations, with the ability to download the report as PDF and add doctor notes.'
         ],
+
+        technologies: [
+          'YOLOv8 OBB',
+          'React',
+          'Groq AI',
+          'Python'
+        ],
+
+        caseStudyButton: 'Explore Project',
+
+        caseStudy: {
+          problemTitle: 'The Problem',
+          problem:
+            'Reviewing dental X-ray images requires time and expertise, and providing an intelligent system can help speed up image analysis and review results.',
+
+          solutionTitle: 'The Solution',
+          solution:
+            'A web platform was developed that combines AI-based X-ray image analysis with an interactive interface allowing doctors to upload images and review analysis results, recommendations, and reports.',
+
+          roleTitle: 'My Role in the Project',
+          role:
+            'Contributed to developing the AI model using YOLOv8 OBB, integrating it with system interfaces, designing and developing platform interfaces, integrating Groq AI to generate recommendations, in addition to developing the report interface, enabling PDF downloads, and adding doctor notes.',
+
+          workflowTitle: 'How Does the System Work?',
+
+          workflow: [
+            'Upload X-ray image',
+            'Process and analyze image',
+            'Extract analysis results',
+            'Display results and recommendations to the doctor',
+            'Generate and download report as PDF'
+          ],
+
+          techTitle: 'Technologies Used'
+        }
+      },
+
+      agricultural: {
+        title: 'Agricultural Platform',
+        subtitle: 'A platform to connect farmers with financing bodies, buyers, and suppliers',
+        type: 'Internship Project',
+        date: '2025',
+
+        description:
+          'A web platform aimed at facilitating communication between farmers, financing entities, buyers, and suppliers, while providing digital services to users.',
+
+        highlights: [
+          'Designing and developing part of the platform interfaces using React.',
+          'Designing and developing a chatbot using Botpress to support customer service and answer frequently asked questions.',
+          'Connecting the chatbot to the database using Supabase to retrieve requested information.',
+          'Integrating the chatbot with platform interfaces to enable users to access the chat service.'
+        ],
+
         technologies: [
           'React',
           'Botpress',
-          'Supabase',
-          'APIs'
+          'Supabase'
         ],
+
         button: 'View Project',
         link: 'https://github.com/joudalshehri85/Dentek'
       },
 
-     mustarad: {
+      mustarad: {
         title: 'Mustarad',
-        subtitle: 'Campus Lost and Found Web Application',
+        subtitle: 'University web platform for reporting lost and found items',
         type: 'University Web Project',
         date: '2024',
-        description: 'A web platform enabling university students to efficiently report lost items and browse found ones, featuring intuitive keyword search, category filtering, and image upload capabilities.',
+
+        description:
+          'A university web platform designed to simplify reporting lost and found items and help students access reports.',
+
         highlights: [
-          'Developed the authentication/login flow and responsive landing page experience.',
-          'Implemented reporting workflows allowing photo uploads via Multer and precise location tagging.',
-          'Engineered item discovery features with category filtering (Devices, Clothing, Other) and live keyword search.',
-          'Collaborated in a multidisciplinary team to ensure unified design patterns and API connectivity.'
+          'Designing and developing the login and homepage interfaces for the platform.',
+          'Developing functions using PHP to validate inputs and process user data.',
+          'Contributing to developing a platform for reporting lost and found items.'
         ],
+
         technologies: [
-          'React.js',
+          'PHP',
           'JavaScript',
-          'Node.js',
-          'Express',
-          'Multer',
-          'HTML & CSS'
+          'HTML',
+          'CSS'
         ],
+
         button: 'View Project',
-        link: 'https://github.com/joudalshehri85/Mustarad' // ضعي رابط مستودع المشروع إن وجد
+        link: 'https://github.com/joudalshehri85/Mustarad'
       }
     },
 
@@ -473,12 +492,15 @@ export const content = {
         company: 'SallamTech',
         location: 'Jeddah',
         date: '05/2025 – 07/2025',
-        description: 'A hands-on internship focused on full-stack web development, AI solutions, and cloud-based services.',
+
+        description:
+          'A practical internship focused on developing web interfaces, building chatbots, and connecting them with databases and platform interfaces.',
+
         responsibilities: [
-          'Developed responsive full-stack web applications using React.',
-          'Built AI chatbot solutions using Botpress.',
-          'Managed cloud databases and backend services using Supabase.',
-          'Integrated frontend interfaces with backend APIs and AI services.'
+          'Designing and developing part of the agricultural platform interfaces using React.',
+          'Designing and developing a chatbot using Botpress to support customer service and answer frequently asked questions.',
+          'Connecting the chatbot to the database using Supabase to retrieve requested information and provide answers to users.',
+          'Integrating the chatbot with platform interfaces to enable users to access the chat service directly.'
         ]
       }
     },
@@ -500,23 +522,29 @@ export const content = {
       items: [
         {
           title: 'JavaScript Essentials 1',
-          issuer: 'Cisco Networking Academy'
+          issuer: 'Cisco Networking Academy (Cisco)',
+          link:'https://www.credly.com/badges/e9bd872a-a985-4ba9-8799-320bc0fc254b/public_url'
         },
         {
           title: 'JavaScript Essentials 2',
-          issuer: 'Cisco Networking Academy'
+          issuer: 'Cisco Networking Academy (Cisco)',
+         link:'https://www.credly.com/badges/e184df81-420d-47c6-9680-6d591a975840/public_url'
+
         },
         {
-          title: 'Introduction to Large Language Models',
-          issuer: 'IBM SkillsBuild'
+          title: 'Introduction to Large Language Models (LLMs)',
+          issuer: 'IBM SkillsBuild',
+          link:'https://drive.google.com/file/d/1XnLmniPYU5wMVYlWX9cWlIyn1s50yl3W/view?pli=1'
         },
         {
-          title: 'Use Generative AI for Software Development',
-          issuer: 'IBM SkillsBuild'
+          title: 'Using Generative AI for Software Development',
+          issuer: 'IBM SkillsBuild',
+          link:'https://drive.google.com/file/d/1bN78JCB1XFcnZEuPeKjf8V1rCHLPNllR/view'
         },
         {
-          title: 'Build Your First Chatbot',
-          issuer: 'IBM SkillsBuild'
+          title: 'Build Your First AI Chatbot',
+          issuer: 'IBM SkillsBuild',
+          link:'https://drive.google.com/file/d/16qAPheIKswrxcgetgzwInh-1RGJMrYrO/view'
         }
       ],
 
@@ -524,8 +552,8 @@ export const content = {
     },
 
     contact: {
-      title: 'Get in Touch',
-      subtitle: "Have an opportunity or a project in mind? I'd be happy to connect.",
+      title: 'Contact Me',
+      subtitle: 'Do you have an opportunity or a project? I would be happy to connect with you.',
       email: 'Email',
       linkedin: 'LinkedIn',
       github: 'GitHub',
@@ -533,8 +561,7 @@ export const content = {
     },
 
     footer: {
-      text: 'Joud Alshehri — Full-Stack & AI Developer',
+      text: 'Joud Alshehri — Software and AI Developer',
       rights: 'All rights reserved.'
     }
-  }
-};
+ }}
